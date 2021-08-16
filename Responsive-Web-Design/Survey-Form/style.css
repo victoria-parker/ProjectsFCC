@@ -1,0 +1,74 @@
+:root{
+    --first-color:#ff0000;
+    --second-color:#dfffff;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(images/popcorn-1085072_1920.jpg) rgba(255, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--second-color);
+    font-size: 1.2rem;
+}
+
+#title{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#description{
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 30px;
+}
+
+#survey-form{
+    color: white;
+    border-radius: .5rem;
+    width:60%;
+    height: auto;
+    margin:auto;
+    background-color: rgba(255, 0, 0, 0.8);
+    margin: 15px auto;
+    padding: 20px;
+}
+
+#name,#email,#number, #comments, #dropdown{
+    width: 100%;
+    border-radius: .25rem;
+    border:0.1rem solid transparent;
+    outline: none;
+    margin: 0 15px 15px 0;
+    padding: .25rem;
+}
+#dropdown{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#comments{
+    resize: none;
+}
+#submit{
+    border-radius: .25rem;
+    outline: none;
+    border:0.1rem solid transparent;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+
+}
+footer{
+    background-color:var(--first-color);
+    height: 60px;
+    text-align: center; 
+    margin: 0;
+    padding: 0;
+}
+
+footer p{
+    padding-top: 15px;
+}

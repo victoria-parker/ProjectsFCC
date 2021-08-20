@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC:Producto-Landing-Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Historia de Usuario #1 -->
+    <header id="header">
+
+        <!-- Historia de Usuario #2 -->
+        <img src="images/6613245_cello_isntrument_music_stringed_viola_icon.svg" alt="" id="header-img">
+
+        <!-- Historia de Usuario #3 -->
+        <nav id="nav-bar">
+             <!-- Historia de Usuario #4 #5-->
+             <a href="#about" class="nav-link">About</a>
+            <a href="#shop" class="nav-link">Shop</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <div>
+            <h1>The Cello Shop</h1>
+
+            <p>The Cello shop has served the Greater Dublin string-playing community since 1990. With the acquisition of Carriage House Cellos in 1995, we form Dublin’s largest string company, together with our Guitar & Bass Shops.</p>
+
+            <p>We are one of the most prominent Internet resources for string players, offering a vast selection of instruments, sheet music, Suzuki materials, cases and accessories for sale.</p>
+                
+            <p>Our extensive collection of cellos, and bows available for purchase can be viewed in our shop or on this website.</p>
+            </div>
+            <img src="images/pexels-tom-swinnen-752535.jpg" alt="image of a Cello">
+        </section>
+
+        <section id="shop">
+
+            <h2>Our Products</h2>
+
+        <!-- Historia de Usuario #6 -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mGQLXRTl3Z0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
+       
+        <div id="offers">
+                <div>
+                    <h3>Cellos</h3>
+                    <img src="images/pexels-yan-krukov-8519628.jpg" alt="Image of a Cello">
+                    <br>
+                    <button>Buy</button>
+                </div>
+                <div>
+                    <h3>Accessories</h3>
+                    <img src="images/pexels-yan-krukov-8519635.jpg" alt="Image of a music sheet stand">
+                    <br>
+                    <button>Buy</button>
+
+                </div>
+                <div>
+                    <h3>Sheet Music</h3>
+                    <img src="images/pexels-pixabay-164821.jpg" alt="Image of music sheets">
+                    <br>
+                    <button>Buy</button>
+                </div>
+        </div>
+        </section>
+        <section id="contact">
+            <div>
+                <h2>Get in touch</h2>
+                <!-- Historia de usuario #8 #12 -->
+                <form action="https://www. reecodecamp.com/email-submit" method="post" id="form">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" required> <br>
+
+                    <!-- Historia de Usuario #8 #9 #10 -->
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required placeholder="Enter your email"><br>
+
+                    <label for="message">Your message:</label><br>
+                    <textarea name="message" id="message" cols="30" rows="10" minlength="3" maxlength="300"></textarea><br>
+
+                    <!-- Historia de Usuario #11 -->
+                    <!-- <button type="submit" id="submit">Submit</button> -->
+                    <input id="submit" type="submit" value="Submit"/>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer><p>Author: Victoria Parker</p></footer>
+</body>
+</html>

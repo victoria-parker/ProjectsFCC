@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap');
+html, body {
+    min-height: 100%;
+    min-width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'STIX Two Text', serif;
+ 
+}
+#header{ /* Historia de Usuario #15 */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: sticky; /* Historia de Usuario #13 */
+    top: 0;
+}
+#header-img{
+    width: 70px;
+}
+#nav-bar .nav-link{
+    text-decoration: none;
+    padding: 15px;
+    color: #283618;
+    font-weight: bold;
+}
+#about{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+#about h1{
+    font-size: 2.5rem;
+    margin: 25px;
+}
+#about p{
+    margin:30px;
+    width: 400px;
+    text-align: justify; 
+}
+#about img{
+    width: 300px;   
+}
+#shop{
+    width: 90%;
+    margin: auto;
+    margin: 50px;
+
+}
+#shop iframe{
+    display: block;
+    margin: auto;
+
+}
+#shop h2{
+    text-align: center;
+    margin: 15px;
+}
+#shop #offers{
+    margin: 80px;
+    display: flex;
+    justify-content: center;
+}
+#shop #offers div{
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+}
+#shop #offers img{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+#shop #offers div button,#submit{
+    width: 100px;
+    height: 25px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: 'STIX Two Text', serif;
+    background-color: #DDA15E;
+    color: #283618;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+#contact div{
+    width: 500px;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+    background-color: #283618;
+    color: #FEFAE0;
+    border-radius: .25rem;
+}
+#contact div h2{
+    margin: 15px;
+}
+#form{
+    width: 80%;
+}
+#form input, textarea{
+    width:100%;
+    border-radius: .25rem;
+    margin-bottom: 10px;
+}
+#submit{
+    width: 100%;
+}
+footer{
+    height: 60px;
+    margin-top: 40px;
+    background-color: #283618;
+    color: #DDA15E;
+    text-align: center;
+}
+footer p{
+    padding-top: 20px;
+}
+
+/* Historia de Usuario #14 */
+@media (max-width:768px) {
+    
+    :host {
+            overflow: auto; 
+          }
+    
+    #header{
+        background-color: #DDA15E;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        position: sticky; /* Historia de Usuario #13 */
+        top: 0;
+
+    }
+    #about{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    #about p{
+        margin: 0;
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: justify; 
+    }
+    #about img{
+        width: 300px;   
+        align-self: center;
+    }
+    #shop{
+        width: 100%;
+        margin: auto;
+    }
+    #shop iframe{
+        display: block;
+        margin: auto;
+        margin: 0;
+        width:100%;
+    }
+    #shop #offers{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #shop #offers div{
+        border: 1px solid black;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        margin-top: 5px;
+    }
+    #shop #offers img{
+        width: 250px;
+        padding: 2px;
+    }
+    #contact div{
+        width: 100%;
+        margin: auto;
+        margin-top: 5px;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: stretch;
+        background-color: #283618;
+        color: #FEFAE0;
+        border-radius: .25rem;
+    }
+}

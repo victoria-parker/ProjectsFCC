@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- User Story #6 -->
+    <nav id="navbar">
+        <!-- User Story #7 -->
+        <ul id="menu">   
+            <li><a href="#welcome-section">About</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- User Story #1 -->
+    <section id="welcome-section">
+        <!-- User Story #2 -->
+        <h1>Hello! I am Victoria</h1>
+        <h2>a web developer</h2>
+    </section>
+    <!-- User Story #3 -->
+    <h2 id="projects-h2">These are some of my projects</h2>
+
+    <section id="projects">
+        
+        <!-- User Story #4 -->
+            <div class="project-tile">
+                <a href="https://codepen.io/victoria-parker/full/mdmYyYo" target="_blank">
+                    <img src="images/Survey-form.PNG" alt="Survey-form">
+                    <h3>Survey Form</h3>
+                </a>
+            </div>
+            <div class="project-tile">
+                <a href="https://codepen.io/victoria-parker/full/bGWydeE" target="_blank">
+                    <img src="images/Tribute-page.PNG" alt="Survey-form">
+                    <h3>Tribute Page</h3>
+                </a>
+            </div>
+            <div class="project-tile">
+                <a href="https://codepen.io/victoria-parker/full/JjJPXeM" target="_blank">
+                    <img src="images/Documentation-page.PNG" alt="Survey-form">
+                    <h3>Technical Documentation Page</h3>
+                </a>
+            </div>
+            <div class="project-tile" target="_blank">
+                <a href="https://codepen.io/victoria-parker/full/gOWVKoq">
+                    <img src="images/Product-Landing-Page.PNG" alt="Survey-form">
+                    <h3>Product Landing Page</h3>
+                </a>
+            </div>
+        
+    </section>
+
+    <section id="secContanct">
+        <h2 id="contact-h2">Let's work together...</h2>
+        
+        <div id="contact">
+        <!-- User Story #8 -->
+
+        <div>
+        <a href="https://github.com/victoria-parker" id="profile-link" target="_blank">
+            <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjQ3NS4wODRweCIgaGVpZ2h0PSI0NzUuMDg0cHgiIHZpZXdCb3g9IjAgMCA0NzUuMDg0IDQ3NS4wODQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ3NS4wODQgNDc1LjA4NDsiDQoJIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwYXRoIGQ9Ik00MzYuMjQ0LDE0Ni43NTJjNS4xNC0xNS40MjIsNy43MTMtMzEuNDA5LDcuNzEzLTQ3Ljk2N2MwLTIyLjA4LTQuODU5LTQyLjgyOC0xNC41NjQtNjIuMjQyDQoJCQljLTIwLjM2MiwwLTM4LjM0OSwzLjcxNS01My45NjEsMTEuMTM2Yy0xNS42MDQsNy40MjMtMzMuNCwxOC45MzgtNTMuMzc5LDM0LjU0NWMtMjUuMTIyLTYuMDktNTEuNzc3LTkuMTM1LTc5Ljk0MS05LjEzNQ0KCQkJYy0zMC44MzcsMC02MC4yNDUsMy4zMzMtODguMjIzLDkuOTk0Yy0yMC4zNjQtMTUuOTktMzguMzUxLTI3Ljc0LTUzLjk1OS0zNS4yNmMtMTUuNjA4LTcuNTItMzMuNjg5LTExLjI3OS01NC4yNDctMTEuMjc5DQoJCQljLTkuNzA3LDE5LjQxNC0xNC41Niw0MC4xNjMtMTQuNTYsNjIuMjQyYzAsMTYuNzUxLDIuNTY4LDMyLjkzLDcuNzA4LDQ4LjUzNUMxMi45NDIsMTc3LjU4NywwLDIxNS4yNzIsMCwyNjAuMzgzDQoJCQljMCwzOS41OTUsNS44OTgsNzEuMDkyLDE3LjcwMSw5NC41MDdjNi4yODMsMTIuMzY3LDE0LjQ2NSwyMy4zMTIsMjQuNTU0LDMyLjgzMmMxMC4wODUsOS41MTQsMjEuNjAxLDE3LjIyOCwzNC41NDUsMjMuMTMNCgkJCWMxMi45NDYsNS44OTYsMjUuOTgxLDEwLjgwMSwzOS4xMTYsMTQuNjk5YzEzLjEzNCwzLjksMjcuNjQ2LDYuNzU4LDQzLjU0LDguNTU5YzE1Ljg5MywxLjgxNiwyOS45MywzLjAwNCw0Mi4xMTEsMy41NzkNCgkJCWMxMi4xODEsMC41NjQsMjUuNjkzLDAuODUzLDQwLjU0NCwwLjg1M2MxNy41MDgsMCwzMy4zOTYtMC40MzIsNDcuNjc4LTEuMjgzYzE0LjI3Ny0wLjg1NSwzMC41OTQtMi45NTMsNDguOTY0LTYuMjc2DQoJCQljMTguMzY3LTMuMzMzLDM0LjU0Ny03Ljg1Nyw0OC41NC0xMy41NjVjMTMuOTktNS43MDgsMjcuNDEyLTEzLjg5NSw0MC4yNTktMjQuNTUxYzEyLjg0Ny0xMC42NjMsMjIuODg0LTIzLjMxOCwzMC4xMjEtMzcuOTc2DQoJCQljMTEuNjA0LTIzLjYwMywxNy40MTItNTUuMTA3LDE3LjQxMi05NC41MDdDNDc1LjA3OCwyMTUuMDgyLDQ2Mi4xMzUsMTc3LjIwNiw0MzYuMjQ0LDE0Ni43NTJ6IE00MDEuOTk1LDM1NC40NTUNCgkJCWMtNi4wOTIsMTIuNDcxLTEzLjgwMiwyMi4yNjUtMjMuMTI3LDI5LjQxYy05LjMyOSw3LjEzOS0yMC45MzgsMTIuODQ3LTM0LjgzMSwxNy4xMzVjLTEzLjksNC4yODEtMjcuMjE3LDcuMDg3LTM5Ljk3MSw4LjQxNQ0KCQkJYy0xMi43NTgsMS4zMzQtMjYuOTMzLDEuOTk4LTQyLjU0NSwxLjk5OGgtNDcuOTY2Yy0xNS42MDcsMC0yOS43OS0wLjY2NC00Mi41NDEtMS45OThjLTEyLjc1Mi0xLjMyOC0yNi4wNzUtNC4xMzQtMzkuOTcxLTguNDE1DQoJCQljLTEzLjg5MS00LjI4OC0yNS41LTkuOTk2LTM0LjgyOS0xNy4xMzVjLTkuMzI5LTcuMTQ2LTE3LjAzNy0xNi45MzktMjMuMTI4LTI5LjQxYy02LjA5LTEyLjQ3MS05LjEzNi0yNy4wNzYtOS4xMzYtNDMuODI0DQoJCQljMC0yMi44NDcsNi41NjctNDIuMjY0LDE5LjcwMi01OC4yNDVjMTMuMTM0LTE1Ljk5LDMwLjkyOS0yMy45ODIsNTMuMzg3LTIzLjk4MmM4LjE4OCwwLDI2Ljc0NiwxLjk5Nyw1NS42NzcsNS45OTUNCgkJCWMxMy41MTMsMi4wOTMsMjguNDU2LDMuMTQsNDQuODIzLDMuMTRjMTYuMzcyLDAsMzEuMzEzLTEuMDQ0LDQ0LjgyNC0zLjE0YzI5LjMxNy0zLjk5OSw0Ny44NjktNS45OTUsNTUuNjc4LTUuOTk1DQoJCQljMjIuNDU3LDAsNDAuMjUyLDcuOTk2LDUzLjM4NiwyMy45ODJjMTMuMTM1LDE1Ljk4OCwxOS42OTgsMzUuMzk4LDE5LjY5OCw1OC4yNDUNCgkJCUM0MTEuMTI1LDMyNy4zODIsNDA4LjA3OSwzNDEuOTk1LDQwMS45OTUsMzU0LjQ1NXoiLz4NCgkJPHBhdGggZD0iTTE2Ni44NzUsMjY1LjUyYy01LjgwNi02LjQ3NS0xMi43MDMtOS43MTItMjAuNjk5LTkuNzEyYy03Ljk5OCwwLTE0Ljg5NiwzLjI0MS0yMC43MDEsOS43MTINCgkJCWMtNS44MDIsNi40NjgtOS44OTcsMTMuNzAzLTEyLjI3NSwyMS42ODljLTIuMzgzLDguMDAyLTMuNTcxLDE1LjgwNC0zLjU3MSwyMy40MjJjMCw3LjYxLDEuMTkxLDE1LjQxMywzLjU3MSwyMy40MTQNCgkJCWMyLjM3NSw3Ljk5MSw2LjQ2OCwxNS4yMjIsMTIuMjc1LDIxLjY4OWM1LjgwOCw2LjQ3NSwxMi43MDMsOS43MTMsMjAuNzAxLDkuNzEzYzcuOTk2LDAsMTQuODk2LTMuMjQ0LDIwLjY5OS05LjcxMw0KCQkJYzUuODA0LTYuNDY4LDkuODk3LTEzLjY5OCwxMi4yNzUtMjEuNjg5YzIuMzgtOC4wMDEsMy41NzEtMTUuODA0LDMuNTcxLTIzLjQxNGMwLTcuNjExLTEuMTg4LTE1LjQyLTMuNTcxLTIzLjQyMg0KCQkJQzE3Ni43NzEsMjc5LjIyNiwxNzIuNjgyLDI3MS45OTQsMTY2Ljg3NSwyNjUuNTJ6Ii8+DQoJCTxwYXRoIGQ9Ik0zNDkuNjAxLDI2NS41MmMtNS44MDQtNi40NzUtMTIuNzAzLTkuNzEyLTIwLjY5Ny05LjcxMmMtNy45OTEsMC0xNC44OTQsMy4yNDEtMjAuNzAxLDkuNzEyDQoJCQljLTUuODA0LDYuNDY4LTkuODk2LDEzLjcwMy0xMi4yNzEsMjEuNjg5Yy0yLjM4NSw4LjAwMi0zLjU3NiwxNS44MDQtMy41NzYsMjMuNDIyYzAsNy42MSwxLjE5MSwxNS40MTMsMy41NzYsMjMuNDE0DQoJCQljMi4zNzUsNy45OTEsNi40NjgsMTUuMjIyLDEyLjI3MSwyMS42ODljNS44MDgsNi40NzUsMTIuNzEsOS43MTMsMjAuNzAxLDkuNzEzYzcuOTk0LDAsMTQuODk0LTMuMjQ0LDIwLjY5Ny05LjcxMw0KCQkJYzUuODAxLTYuNDY4LDkuODk2LTEzLjY5OCwxMi4yNzgtMjEuNjg5YzIuMzc5LTguMDAxLDMuNTY5LTE1LjgwNCwzLjU2OS0yMy40MTRjMC03LjYxMS0xLjE5LTE1LjQyLTMuNTY5LTIzLjQyMg0KCQkJQzM1OS40OTgsMjc5LjIyNiwzNTUuNDAyLDI3MS45OTQsMzQ5LjYwMSwyNjUuNTJ6Ii8+DQoJPC9nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" /> Github
+        </a>
+        </div>
+        <div>
+            <a href="https://codepen.io/" target="_blank">
+                <img src="data:image/svg+xml;base64,PHN2ZyBpZD0icmVnIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNCAyNCIgaGVpZ2h0PSI1MTIiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjYjNiM2IzIj48cGF0aCBkPSJtMTIgMTUuNS0xMS41LTggMTEuNS03IDExLjUgN3oiLz48cGF0aCBkPSJtMjQgNy41LTYuMTMzIDQuMjY3IDYuMTMzIDMuNzMzeiIvPjxwYXRoIGQ9Im0xMiAyMy41LTExLjUtOCAxMS41LTcgMTEuNSA3eiIvPjxwYXRoIGQ9Im02LjYzMyAxMS43NjctNi4xMzMgMy43MzN2LTh6Ii8+PC9nPjxwYXRoIGQ9Im0yNCA3LjU5OGMtLjA0NC0uMjY0LS4wOC0uNDctLjM2LS42NDEtMTEuNDQ5LTYuNzkxLTExLjI4Ny03LjI5Ny0xMi4wMy02Ljg0OC04LjY3NyA1LjM5NC0xMS4wOTIgNi41OTctMTEuNDM5IDcuMDE3LS4zMTUuMzIzLS4xNzEuODE4LS4xNzEgOC4yOTgtLjAyMS44NTEgNy43NDMgNS40NjIgMTEuNTE5IDguNDA0LjMzMy4yMzcuNzUyLjE5OSAxLjAwMy0uMDI5IDExLjIyNC03Ljk1NiAxMS40OTctNy42MzYgMTEuNDc4LTguMzc1IDAgMC0uMDEyLTcuOTI3IDAtNy44MjZ6bS0xLjUgNi40OTEtMy44NzYtMi4zNTkgMy44NzYtMi42OTd6bS01LjI3Ny0zLjIxMi00LjQ3My0yLjcyMnYtNi4wN2w5LjEyNiA1LjU1NXptLTUuMjIzIDMuNjMzLTMuODc2LTIuNjk3IDMuODc2LTIuMzU5IDMuODc2IDIuMzU5em0tLjc1LTEyLjQyNnY2LjA3NGMtMS43MzkgMS4wNzktMy4yMDkgMS45OC00LjQ1MSAyLjczNGwtNC42NzUtMy4yNTJ6bS01Ljg1NyA5LjY1OGMtMS44NzQgMS4xMjctMy4wOTggMS44NDMtMy44OTMgMi4zMnYtNS4wMjl6bTEuMzMuOTI0IDQuNTI3IDMuMTQ5djUuOTk5bC05LjEyNi02LjM0OXptNi4wMjcgOS4xNDl2LTUuOTk5bDQuNTI3LTMuMTQ5IDQuNTk5IDIuNzk5eiIvPjwvc3ZnPg==" /> CodePen
+            </a>
+        </div>
+        <div>
+            <a href="mailto:victoria@palker.com" target="_blank">
+                <img src="data:image/svg+xml;base64,PHN2ZyBpZD0iQ2FwYV8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA0NjUuODgyIDQ2NS44ODIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNDY1Ljg4MiA0NjUuODgyIiB3aWR0aD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Im0yMzIuOTQxIDBjLTEyOC40NDIgMC0yMzIuOTQxIDEwNC40OTktMjMyLjk0MSAyMzIuOTQxczEwNC40OTkgMjMyLjk0MSAyMzIuOTQxIDIzMi45NDFjNDAuOTYxIDAgODEuMjM5LTEwLjc3NyAxMTYuNDk5LTMxLjE3OWwtMjkuMTQ2LTUwLjQxNmMtMjYuNDE2IDE1LjI4NC01Ni42MjkgMjMuMzYtODcuMzUzIDIzLjM2LTk2LjMzOCAwLTE3NC43MDYtNzguMzY4LTE3NC43MDYtMTc0LjcwNnM3OC4zNjgtMTc0LjcwNiAxNzQuNzA2LTE3NC43MDYgMTc0LjcwNiA3OC4zNjggMTc0LjcwNiAxNzQuNzA2djI1LjM2NGMwIDE5LjA1Mi0xMi4yNDEgMzIuODcxLTI5LjExOCAzMi44NzEtMTYuMDUyIDAtMjkuMTE4LTEzLjA2Ni0yOS4xMTgtMjkuMTE4di0xMTYuNDdoLTQwLjI1MWMtMjAuNDg0LTE3Ljg5NS00Ni45NDgtMjkuMTE4LTc2LjIxOS0yOS4xMTgtNjQuMjIxIDAtMTE2LjQ3MSA1Mi4yNS0xMTYuNDcxIDExNi40NzFzNTIuMjUgMTE2LjQ3MSAxMTYuNDcxIDExNi40NzFjMzAuNTgyIDAgNTguMjMyLTEyLjA5NCA3OS4wMzYtMzEuNDQyIDE2LjAzNiAxOS4wNTcgMzkuNzU0IDMxLjQ0MiA2Ni41NTIgMzEuNDQyIDQ4Ljk4IDAgODcuMzUzLTQwLjAyMiA4Ny4zNTMtOTEuMTA3di0yNS4zNjRjMC0xMjguNDQyLTEwNC40OTktMjMyLjk0MS0yMzIuOTQxLTIzMi45NDF6bTAgMjkxLjE3NmMtMzIuMTE4IDAtNTguMjM1LTI2LjExOC01OC4yMzUtNTguMjM1IDAtMzIuMTE4IDI2LjExOC01OC4yMzUgNTguMjM1LTU4LjIzNSAzMi4xMTggMCA1OC4yMzUgMjYuMTE4IDU4LjIzNSA1OC4yMzUgMCAzMi4xMTgtMjYuMTE3IDU4LjIzNS01OC4yMzUgNTguMjM1eiIvPjwvc3ZnPg==" />Send an Email
+            </a>
+        </div>
+        <div>
+            <a href="twitter.com" target="_blank">
+                <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwYXRoIGQ9Ik01MTIsOTcuMjQ4Yy0xOS4wNCw4LjM1Mi0zOS4zMjgsMTMuODg4LTYwLjQ4LDE2LjU3NmMyMS43Ni0xMi45OTIsMzguMzY4LTMzLjQwOCw0Ni4xNzYtNTguMDE2DQoJCQljLTIwLjI4OCwxMi4wOTYtNDIuNjg4LDIwLjY0LTY2LjU2LDI1LjQwOEM0MTEuODcyLDYwLjcwNCwzODQuNDE2LDQ4LDM1NC40NjQsNDhjLTU4LjExMiwwLTEwNC44OTYsNDcuMTY4LTEwNC44OTYsMTA0Ljk5Mg0KCQkJYzAsOC4zMiwwLjcwNCwxNi4zMiwyLjQzMiwyMy45MzZjLTg3LjI2NC00LjI1Ni0xNjQuNDgtNDYuMDgtMjE2LjM1Mi0xMDkuNzkyYy05LjA1NiwxNS43MTItMTQuMzY4LDMzLjY5Ni0xNC4zNjgsNTMuMDU2DQoJCQljMCwzNi4zNTIsMTguNzIsNjguNTc2LDQ2LjYyNCw4Ny4yMzJjLTE2Ljg2NC0wLjMyLTMzLjQwOC01LjIxNi00Ny40MjQtMTIuOTI4YzAsMC4zMiwwLDAuNzM2LDAsMS4xNTINCgkJCWMwLDUxLjAwOCwzNi4zODQsOTMuMzc2LDg0LjA5NiwxMDMuMTM2Yy04LjU0NCwyLjMzNi0xNy44NTYsMy40NTYtMjcuNTIsMy40NTZjLTYuNzIsMC0xMy41MDQtMC4zODQtMTkuODcyLTEuNzkyDQoJCQljMTMuNiw0MS41NjgsNTIuMTkyLDcyLjEyOCw5OC4wOCw3My4xMmMtMzUuNzEyLDI3LjkzNi04MS4wNTYsNDQuNzY4LTEzMC4xNDQsNDQuNzY4Yy04LjYwOCwwLTE2Ljg2NC0wLjM4NC0yNS4xMi0xLjQ0DQoJCQlDNDYuNDk2LDQ0Ni44OCwxMDEuNiw0NjQsMTYxLjAyNCw0NjRjMTkzLjE1MiwwLDI5OC43NTItMTYwLDI5OC43NTItMjk4LjY4OGMwLTQuNjQtMC4xNi05LjEyLTAuMzg0LTEzLjU2OA0KCQkJQzQ4MC4yMjQsMTM2Ljk2LDQ5Ny43MjgsMTE4LjQ5Niw1MTIsOTcuMjQ4eiIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K" />Twitter
+            </a>
+        </div>
+    </div>
+    </section>
+    <footer>
+        <p>Author:Victoria Parker</p>
+    </footer>
+</body>
+</html>

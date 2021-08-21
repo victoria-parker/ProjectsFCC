@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+:root{
+    --font-color:#FFF0F3;
+    --font-colortwo:#FFCCD5;
+    --first-color:#800F2F;
+    --second-color:#590D22;
+    --third-color:#FF4D6D;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: var(--font-color);
+    background-color: var(--third-color);
+    font-family: 'Roboto', sans-serif;
+}
+#navbar{
+    background-color: var(--first-color);
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#menu{
+    list-style: none;
+    display: flex;
+}
+#menu li a{
+    text-decoration: none;
+    padding: 1rem;
+    color: var(--font-colortwo);
+}
+#welcome-section{
+    height: 100vh ; /* User Story #10 */
+    background: linear-gradient(35deg,#C9184A,#FF4D6D);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#welcome-section h1{
+    font-size: 4rem;
+}
+#welcome-section h2{
+    color: var(--second-color);
+}
+h2{
+    font-size:2rem;
+}
+#projects-h2, #contact-h2{
+    text-align: center;
+    padding: 2rem;    
+}
+#projects{
+    background-color:var(--third-color);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+}
+.project-tile{
+    background-color: var(--first-color);
+    width: 320px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+.project-tile a{
+    color: var(--font-colortwo);
+    text-decoration: none;
+}
+.project-tile a img{
+    width: 320px;
+}
+#secContanct{
+    background-color: var(--second-color);
+    padding: 3rem;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+}
+#contact div{
+    margin: 3rem;
+}
+#contact div:hover{
+    transform: scale(2);
+}
+#contact a{
+    text-decoration: none;
+    color: var(--font-colortwo);
+    display: flex;
+    align-items: center;
+}
+#contact img{
+    width: 2rem;
+}
+footer{
+    height: 60px;
+    background-color: var(--first-color);
+    text-align: center;
+}
+footer p{
+    padding-top: 1.5rem;
+}
+/* User Story #9 */
+@media (max-width:768px) {
+    #contact{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

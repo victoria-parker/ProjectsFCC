@@ -1,0 +1,79 @@
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ body{
+     font-family:Arial, Helvetica, sans-serif;
+     background-color: #E1E5F2;
+ }
+ #navbar{
+    background-color: #BFDBF7;
+ }
+ #navbar header{
+     text-transform: uppercase;
+     font-weight: bold;
+     margin: 0rem 1rem 0 1rem ;
+     padding-top:2rem ;
+ }
+ #navbar ul{
+     list-style: none;
+     padding-bottom: 1rem;
+     border-top: 1px solid #022B3A;
+ }
+ #navbar ul li{
+    margin:1rem 0rem 0rem 0rem;
+
+}
+ .nav-link{
+     color: #022B3A;
+     text-decoration: none;
+ }
+ .main-section{
+     margin: 2rem 1rem 0 2rem;
+     text-align: justify;
+ }
+.main-section ul,ol{
+    margin:1rem auto 1rem 2rem;
+}
+.main-section p{
+    margin-bottom: 2rem;
+}
+.main-section code{
+    display: block;
+    margin-bottom:2rem;
+}
+#back{
+    position: fixed;
+    bottom: .5rem;
+    right: .5rem;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem; 
+    border: none;
+    background-color: #022B3A;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#back a{
+    padding-top: 2px;
+    text-decoration: none;
+    color: #BFDBF7;
+}
+ /* Historia de Usuario #15*/
+@media (min-width:992px) {
+    /* Historia de Usuario #14 */
+    body{
+        display: flex;
+    }
+    
+    #navbar ul li{
+        width: 100%;
+        margin-top:2rem;
+        border-bottom: 1px solid #022B3A;
+        padding-left:1rem;
+    }
+}
